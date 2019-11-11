@@ -5,7 +5,7 @@ yum -y install libass libass-devel autoconf automake bzip2 cmake freetype-devel 
 pkgconfig zlib-devel enca-devel fontconfig-devel openssl openssl-devel wget openjpeg openjpeg-devel \
 libtiff libtiff-devel dbus-devel ibus-devel libsamplerate-devel \
 libudev-devel libmodplug-devel libjpeg-turbo-devel pulseaudio-libs-devel audiofile-devel \
-mikmod-devel smpeg-devel giflib-devel libsndfile-devel
+mikmod-devel smpeg-devel giflib-devel libsndfile-devel xz
 mkdir ~/ffmpeg_sources;
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/ffmpeg_build/lib;
 
